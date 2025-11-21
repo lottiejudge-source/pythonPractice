@@ -12,4 +12,12 @@ class Restaurant:
 # three restauraunts 
 black_lock = Restaurant("Black Lock", "A Chop House")
 black_lock.describe_restaurant()
-print("hello")
+black_lock.open_restaurant()
+
+monohon = Restaurant("Monohon", "Ramen")
+monohon.describe_restaurant()
+monohon.open_restaurant()
+
+leongs_legend = Restaurant("Leongs Legend", "Taiwanese Dim Sum")
+leongs_legend.describe_restaurant()
+leongs_legend.open_restaurant()
